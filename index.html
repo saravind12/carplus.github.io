@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="shortcut icon" href = "AmitIcon.ico" />   
+    <link rel="stylesheet" type="text/css" href="jquery.fullPage.css" />
+    <link rel="stylesheet" type="text/css" href="index_style.css"/>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="vendors/jquery.easings.min.js"></script>
+    <script type="text/javascript" src="jquery.fullPage.js"></script>
+    <script type="text/javascript">
+    	$(document).ready(function()
+    		{
+    			$('#fullpage').fullpage();
+    		});
+	</script>
+</head>
+
+<body>
+    <div id="fullpage">
+        <div class="section" id="Main">
+        	<div class="logo">
+            	<img src="Images/logo.jpg" alt="logo" height="100" width="170">
+            </div>
+        </div>
+
+        <div class="section" id="About">
+			<h1>The Team</h1>
+			<div class="slide">
+				<div class ="test">
+				<img src="Images/Team/Sudeep.jpg" alt="Team" height="200" width="200"> 
+				<p>Sudeep Aravind: Computer Systems Engineering, Arizona State University</p>
+				</div>
+			</div>
+			<div class="slide">
+				<img src="Images/Team/Josh.jpg" alt="Team" height="200" width="200"> 
+				<p>Josh Gold: Computer Systems Engineering, Arizona State University</p> 
+			</div>
+			<div class=slide>       	
+				<img src="Images/Team/Mittal.jpg" alt="Team" height="200" width="200"> 
+				<p>Mittal Patel: Data Analytics/Finance, Arizona State University</p>
+			</div>
+			<div class="slide">
+				<img src="Images/Team/Ahmed.jpg" alt="Team" height="200" width="200"> 
+				<p>Ahmed Imam: Finance/Entrepreneurship, Arizona State University</p>
+			</div>
+        </div>
+            
+        <div class="section" id="Design">
+        	<div class="slide">
+            <h1>Design</h1>
+            <h2> The Problem </h2>
+        	<p>-65% of people asked in a survey said that they drive a car built before 2010 <br>
+			-Cars manufactured before 2010 lack modern safety features <br>
+			-Modern safety features netted a 30% decrease in traffic casualties <br> 
+			-The most common collision was a rear end, easily preventable with a detection system <br> 
+			</p>
+			<h2> The Solution </h2>
+			<p>
+			 A one-stop service that will provide customers with:<br>
+			-Automatic Braking<br>
+			-Blind Spot/Collision Alert<br>
+			-Lane Departure Warning<br>
+			-in their current cars.<br>
+			</p>
+			</div>
+
+			<div class="slide">
+            <h2> Proof of Concept</h2>
+            <p>
+            	-RC car 1/36 scale of normal car retrofitted with sensors, radar unit, and central computer<br>
+				-Car successfully demonstrated the concept of autonomous braking and obstacle avoidance to potential customers<br> 
+			</p>
+			</div>
+
+			<div class="slide">
+				<h2>System Design</h2>
+				<p>-Car+ safety system that uses a variety of sensors in combination with in-house designed proprietary software to maximize safety and 	 	minimize risk<br>
+				   -Parts for the safety system are readily available from a variety of vendors<br>
+				   -Road Information gathered from sensors is displayed on driver’s windshield via Heads Up Display (HUD)<br>
+				</p>
+				<div class="imgContainer">
+					<img src="Images/Design/SystDesign.png" alt="rear and side view" height="400" width="500">
+				</div>			
+				<div class="imgContainer">
+					<img src="Images/Design/SystDesign2.png" alt="rear and side view" height="400" width="500">
+				</div>			
+				<div class="imgContainer">
+					<img src="Images/Design/SystDesign3.png" alt="rear and side view" height="400" width="500">
+				</div>
+			</div>
+
+			<div class="slide">
+			<h2>Minimum Viable Product</h2>
+			<p>Safety system installation includes front, side, and rear sensors and central computer <br>
+				Heads up display is installed on dashboard and provides driver with real time road<br>
+			</p>
+			<div class="imgContainer">
+				<img src="Images/Design/mvp1.png" alt="rear and side view" height="400" width="500">
+			</div>
+			<div class="imgContainer">
+				<img src="Images/Design/mvp2.png" alt="holo dashboard" height="400" width ="500">
+			</div>
+			<div class="imgContainer">
+				<img src="Images/Design/mvp3.png" alt="auto detection" height="400" width="500">
+			</div>
+        </div>
+        </div>
+
+        <div class="section" id="Product">
+            <div class="slide">
+            	<h1>Product</h1>
+            	<h2>Comparision with Competitors</h2>
+            	<div class=imgCenter>
+            		<img src="Images/Product/comparision.jpg" alt="our competition" height="600" width="700">
+            	</div>
+        	</div>
+    	</div>
+
+        <div class="section" id="Plan">
+            <div class="slide">
+	            <h1>Business Plan</h1>
+	            <h2>Market Analysis</h2>
+	            <div class="imgCenter">
+	            	<img src="Images/Plan/MarketAnalysis.jpg" alt="market" height="600" width ="850">
+	            </div>
+	        </div>
+
+	        <div class="slide">
+	        	<h2>Roadmap</h2>
+	        	<div class="imgCenter">
+	        		<img src="Images/Plan/Roadmap.jpg" alt="roadmap" height="600" width="850">
+	        	</div>
+            </div>
+
+            <div class="slide">
+            	<h2>Customer Persona</h2>
+            	<div class="imgCenter">
+            		<img src="Images/Plan/Customer.jpg" alt="cust" height="600" width="850">
+            	</div>
+
+			<div class="slide">
+				<div id="page">
+					<div id="page-left">
+						<h2>Ordering Process</h2>
+						<div class="imgContainer">
+							<img src="Images/Plan/Ordering_Process.png" alt = "Ordering Process Image" height="500" width = "600">
+						</div>
+					</div>
+					<div id="page-right">
+						<h2>Pricing</h2>
+						<p>$399 base price<br> 
+						-$99/per feature requested<br>
+						-If all features are chosen, customer is eligible for a discount<br>
+						-$149 installation fee<br>
+						-$19.99 annual fee for system updates, maintenance, and support<br> 
+						-$9.99/month optional add-on for warranty extension<br>
+						-Value added to car = priceless<br>
+						</p>
+					</div>
+				</div>
+			</div>
+
+        </div>
+    </div>
+</body> 
+</html>

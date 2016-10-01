@@ -1,0 +1,111 @@
+ *{
+            font-family: "Arial", Arial, sansserif;
+
+        }
+        h1{
+            color: white;
+            font-size: 96px;
+            text-align: center;
+            padding-bottom:;
+        }
+
+        h2{
+            color: white;
+            font-size: 50px;
+            text-align: center;
+            padding-bottom:;
+        }
+
+        
+        p{
+            color:white;
+            text-decoration: bold;
+            font-size: 20px;
+            text-align: center;
+             -moz-border-radius: 5px;
+            -webkit-border-radius: 5px;
+            background-color: rgb(66,134,244);
+            margin-left: 20%;
+            margin-right: 20%;
+            box-shadow:10px 8px 1px rgba(42,42,42, 0.6);
+            padding: 2%;
+        }
+
+
+        img{
+            border-style: solid;
+            border-color:black;
+            border-width: 4px;
+            border-radius: 5px;
+            margin-left: 43%;
+            box-shadow:10px 8px 1px rgba(42,42,42, 0.6);
+            float:center;
+        }
+
+        .imgContainer{
+            float:left;
+        }
+
+        .imgCenter{
+           margin-right: 25%;
+        }
+
+        .imgCenter2{
+            margin-right:15%;
+        }
+
+
+        #Main{
+           background-image: url("Images/Background/roadway.jpg"); 
+           background-repeat: no-repeat;
+           background-size: 100% 100%;
+
+        }
+
+        #About{
+            background-image: url("Images/Background/road.jpg");
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+
+        }
+
+
+        #Design{
+            background-image: url("Images/Background/country.jpg");
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+        }
+        
+        #Product{
+            background-image: url("Images/Background/urban.jpg");
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;     
+        }
+
+        #Plan{
+            background-image: url("Images/Background/highway.jpg");
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+        }
+
+        
+        #page {
+            display: flex;
+        }
+        
+        #page-left {
+          width: 50%;
+          /* Just so it's visible */
+        }
+        
+        #page-right {
+          flex: 1;
+          /* Grow to rest of container */
+          /* Just so it's visible */
+        }
